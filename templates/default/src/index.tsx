@@ -2,7 +2,7 @@ import type { Component } from "solid-js";
 /* @refresh reload */
 import { render } from 'solid-js/web';
 
-import { {{capital name}} } from './{{capital name}}.tsx'
+import { {{capital name}} } from './{{capital name}}'
 
 const App: Component = () => {
   return (
