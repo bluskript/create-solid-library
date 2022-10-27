@@ -7,6 +7,7 @@ export default defineConfig({
     solidPlugin(),
     dts({
       insertTypesEntry: true,
+      exclude: ["node_modules/**", "test-project/node_modules/**"],
     }),
   ],
   server: {

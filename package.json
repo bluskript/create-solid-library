@@ -1,7 +1,7 @@
 {
   "name": "create-solid-library",
   "description": "Create SolidJS libraries with ease",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Blusk <bluskript@gmail.com>",
   "scripts": {
     "build": "tsup src/cli.ts --minify",
