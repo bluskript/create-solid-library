@@ -10,5 +10,6 @@ const templateRoot = resolve(__dirname, "..", "templates");
 create("create-solid-library", {
   templateRoot,
   promptForEmail: false,
-  after: ({ answers }) => console.log(`Ok you chose ${answers.architecture}.`),
+  promptForPackageManager: true,
+  after: () => console.log(`Enjoy building your library!`),
 });
